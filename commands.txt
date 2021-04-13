@@ -1,0 +1,80 @@
+  230  ls
+  231  cd ..
+  232  cd /c/Users/
+  233  cd nagaratna/
+  234  cd Desktop/
+  235  mkdir terminal-commands
+  236  ls terminal-commands/
+  237  ls
+  238  cd terminal-commands/
+  239  clear
+  240  ls -a
+  241  cd ..
+  242  ls
+  243  cd terminal-commands/
+  244  clear
+  245  touch example.txt
+  246  ls -a
+  247  ls -a example.txt 
+  248  ls -lrt
+  249  cd .
+  250  ls
+  251  clear
+  252  cd ~
+  253  ls
+  254  cd Desktop/
+  255  cd terminal-commands/
+  256  clear
+  257  rm -r example.txt 
+  258  ls
+  259  clear
+  260  touch a1.txt && touch a2.txt
+  261  echo "I am Nagaratna" > a1.txt 
+  262  echo "My Name is Nagaratna" > a2.txt
+  263  touch a3.txt
+  264  mv a3.txt temp.txt
+  265  ls
+  266  clear
+  267  mkdir samples
+  268  cp a1.txt samples/
+  269  cd samples/
+  270  ls
+  271  cd ..
+  272  clear
+  273  where ls
+  274  whoami
+  275  pwd
+  276  where samples/a1.txt 
+  277  where a1.txt 
+  278  clear
+  279  where --help
+  280  help where
+  281  clear
+  282  info
+  283  head -2 a1.txt 
+  284  cat a1.txt 
+  285  where java
+  286  cat a1.txt | grep I
+  287  echo "From Honnavar" > a1.txt 
+  288  cat a1.txt | grep From
+  289  cat a1.txt | less
+  290  clear
+  291  history 70
+  292  git clone https://github.com/NagaratnaS/office-spring.git
+  293  git clone https://github.com/NagaratnaS/office-spring.git
+  294  clear
+  295  find -name *.txt 
+  296  find . *.txt 
+  297  clear
+  298  find / -name *.txt
+  299  clear
+  300  history 80
+  301  clear
+  302  cd samples/
+  303  cd ..
+  304  mv samples linux-commands
+  305  cd linux-commands/
+  306  ls
+  307  rm a1.txt 
+  308  touch commands.txt
+  309  history 80 > commands.txt 
